@@ -5,7 +5,7 @@
 {
     'name': 'Processing (customizations for CLVhealth-JCAFB Solution)',
     'summary': 'Processing Module customizations for CLVhealth-JCAFB Solution.',
-    'version': '14.0.5.0',
+    'version': '15.0.6.0',
     'author': 'Carlos Eduardo Vercelino - CLVsol',
     'category': 'CLVsol Solutions',
     'license': 'AGPL-3',
@@ -19,7 +19,6 @@
         'data/patient_history_updt_from_person_history.xml',
         'data/residence_history_updt_from_address_history.xml',
         'data/copy_qsf_from_residence_to_patient.xml',
-        'data/survey_process_yaml.xml',
     ],
     'demo': [],
     'test': [],
