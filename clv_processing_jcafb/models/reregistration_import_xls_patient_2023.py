@@ -70,15 +70,15 @@ class AbstractProcess(models.AbstractModel):
 
             row_count += 1
 
-            ok = sheet.cell_value(i, 1)
-            street2 = sheet.cell_value(i, 2)
-            street_name = sheet.cell_value(i, 3)
-            street_number = sheet.cell_value(i, 4)
+            ok = sheet.cell_value(i, 0)
+            street2 = sheet.cell_value(i, 1)
+            street_name = sheet.cell_value(i, 2)
+            street_number = sheet.cell_value(i, 3)
             if not isinstance(street_number, str):
                 street_number = int(street_number)
-            street_number2 = sheet.cell_value(i, 5)
-            patient_name = sheet.cell_value(i, 7)
-            estimated_age = sheet.cell_value(i, 8)
+            street_number2 = sheet.cell_value(i, 4)
+            patient_name = sheet.cell_value(i, 6)
+            estimated_age = sheet.cell_value(i, 7)
             if not isinstance(estimated_age, str):
                 estimated_age = int(estimated_age)
 

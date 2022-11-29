@@ -9,7 +9,7 @@
         <field name="name">Reregistration Import XLS - JCAFB-2023</field>
         <field name="model">clv.abstract.process</field>
         <field name="method">_do_reregistration_import_xls_patient_2023</field>
-        <field name="method_args" eval="&quot;&quot;&quot;{'file_path': '/opt/odoo/clvsol_filestore/clvhealth_jcafb/Mapeamento IP.xls', 'sheet_name': 'Geral'}&quot;&quot;&quot;"/>
+        <field name="method_args" eval="&quot;&quot;&quot;{'file_path': '/opt/odoo/clvsol_filestore/clvhealth_jcafb/Mapeamento IP - Cadastro.xls', 'sheet_name': 'Cadastro'}&quot;&quot;&quot;"/>
     </record>
 
     <record id="clv_processing_schedule_do_reregistration_import_xls_patient_2023" model="clv.processing.schedule">
