@@ -20,6 +20,7 @@
         'data/residence_history_updt_from_address_history.xml',
         'data/copy_qsf_from_residence_to_patient.xml',
         'data/reregistration_import_xls_patient_2023.xml',
+        'data/patient_estilmated_age_updt.xml',
     ],
     'demo': [],
     'test': [],

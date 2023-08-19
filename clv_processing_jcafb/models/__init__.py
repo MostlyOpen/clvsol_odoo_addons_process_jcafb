@@ -8,3 +8,4 @@ from . import patient_history_updt_from_person_history
 from . import residence_history_updt_from_address_history
 from . import copy_qsf_from_residence_to_patient
 from . import reregistration_import_xls_patient_2023
+from . import patient_estilmated_age_updt
